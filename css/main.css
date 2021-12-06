@@ -1,0 +1,258 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Medium.woff2') format('woff2'),
+        url('../fonts/Roboto-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Regular.woff2') format('woff2'),
+        url('../fonts/Roboto-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Bold.woff2') format('woff2'),
+        url('../fonts/Roboto-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto Condensed';
+    src: url('RobotoCondensed-Bold.woff2') format('woff2'),
+        url('RobotoCondensed-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+body{
+    font-family: "Roboto", "Arial", sans-serif;
+}
+
+.header-hr{
+    width: 1440px;
+    background-color: #FF7500;
+}
+
+.header{
+    width: 1440px;
+}
+
+.logo-header{
+    width: 227px;
+}
+
+.header-nav{
+    list-style: none;
+}
+
+.header-nav-link{
+    text-decoration: none;
+    width: 92px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.books{
+    width: 68px;
+}
+
+.aksiya{
+    width: 76px;
+}
+
+.contacts{
+    width: 91px;
+}
+
+.register{
+    width: 155px;
+    background-color: #FF7500;
+}
+
+.register-button{
+    width: 107px;
+    color: #FFFFFF;
+}
+
+.main-body{
+    background-color: #252420;
+}
+
+.main-body-line{
+    background-color: #FF7500;
+    width: 80px;
+}
+
+.main-title-python{
+    width: 339px;
+    font-family: "Roboto Condensed", "Arial", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+}
+
+.main-div-paragraph{
+    width: 387px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+}
+
+.python-book-img{
+    width: 510px;
+}
+
+.buy-button{
+    width: 152px;
+    background-color: #FF7500;
+}
+
+.buy-button-text{
+    width: 104px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+}
+
+.main-line-seperating-python-book{
+    width: 80px;
+    background-color: #FF7500;
+}
+
+.why-academnashr{
+    width: 435px;
+    font-family: "Roboto Condensed", "Arial", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 72px;
+    line-height: 86px;
+    letter-spacing: 0.5px;
+    color: #000000;
+}
+
+.why-academnashr-list{
+    list-style: none;
+}
+
+.listen-item-img{
+    width: 56px;
+}
+
+.list-item{
+    font-family: "Roboto Condensed", "Arial", sans-serif;
+    width: 214px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.5px;
+    color: #000000;
+}
+
+.list-item-description{
+    width: 314px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    color: #000000;
+}
+
+.best-sellers{
+    width: 170px;
+}
+
+.fast-delivery{
+    width: 196px    ;
+}
+
+.div-for-child-books{
+    width: 1110px;
+    background-color: #252420;
+}
+
+.intro-for-child-books{
+    width: 373px;
+    font-family: "Roboto Condensed", "Arial", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+}
+
+.div-paragraph{
+    width: 440px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    color:#FFFFFF;
+}
+
+.sale-pic{
+    width: 440px;
+}
+
+.footer{
+    width: 1440px;
+    background-color: #F8F8F8;
+}
+
+.footer-list{
+    list-style: none;
+}
+
+.footer-logo{
+    width: 227.71px;
+}
+
+.media-icons{
+    width: 24px;
+}
+
+.footer-hr{
+    width: 1110px;
+    background-color: rgba(37, 36, 32, 0.5);
+}
+
+.footer-nav-list{
+    list-style: none;
+}
+
+.footer-list-link{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #252420;
+    text-decoration: none;
+}
